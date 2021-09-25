@@ -1,0 +1,29 @@
+{
+  "name": "ucamp-class17",
+  "version": "1.0.0",
+  "description": "Uclass 17 examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/ucamp-class17.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/ucamp-class17/issues"
+  },
+  "homepage": "https://github.com/driverInside/ucamp-class17#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "standard": "^16.0.3"
+  }
+}

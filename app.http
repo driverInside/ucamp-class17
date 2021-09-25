@@ -1,0 +1,13 @@
+@hostname=http://localhost
+@port=5001
+@host={{hostname}}:{{port}}
+@coursesPath="/courses"
+
+###
+GET {{host}}/courses
+
+###
+GET {{host}}/courses/4
+
+###
+GET {{host}}/products
